@@ -74,6 +74,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 TW_EXCLUDE_SUPERSU := true
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 255
+#this is required to avoid unresponsive touch at boot until screen timeout
 TW_SCREEN_BLANK_ON_BOOT := true
 
 # Paths
